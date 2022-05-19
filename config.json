@@ -1,0 +1,37 @@
+{
+  "apiHost": "http://localhost:8080",
+  "blockchain": {
+    "nftCollection": {
+      "size": 8000,
+      "baseToken": "CRO",
+      "unitPrice": 400,
+      "maxMintsPerTransaction": 7
+    },
+    "preLaunch": {
+      "whitelistingUrl": "https://forms.gle/QW6pZWkKfXvX1jVJ6",
+      "datetime": {
+        "day": 11,
+        "month": 6,
+        "year": 2022,
+        "hour": 16,
+        "timezone": "America/New_York",
+        "locale": "en-US"
+      }
+    },
+    "networks": {
+      "supportedNetworkIds": [1, 3, 4, 5, 42]
+    }
+  },
+  "marketing": {
+    "googleAnalytics": {
+      "trackingId": "UA-227724223-1",
+      "testLocalhost": false
+    }
+  },
+  "observability": {
+    "sentry": {
+      "url": "https://a46602a8f07e4de893a155d0e3ceabfc@o1044928.ingest.sentry.io/6370300",
+      "sampleRate": 1.0
+    }
+  }
+}
